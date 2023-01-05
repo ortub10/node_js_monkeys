@@ -6,6 +6,11 @@ router.get("/", function (req, res, next) {
   res.render("index", { title: "VIP", _ar: vip_ar });
 });
 
+router.get("/:id_vip", function (req, res, next) {
+  const _person_id = req.params.id_vip;
+  res.render("person", { title: "VIP", person: vip_ar[_person_id] });
+});
+
 module.exports = router;
 
 const vip_ar = [
