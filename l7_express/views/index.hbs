@@ -1,2 +1,17 @@
 <h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
+<div class="row">
+  {{#each _ar}}
+
+    <div class="col-sm-6 card">
+
+      <div>
+        <img class="float-left" src="{{image}}" style="margin-right:10px" />
+        <h2>{{name}}</h2>
+        <p>Worth: {{worth}}</p>
+
+      </div>
+      \
+    </div>
+  {{/each}}
+
+</div>
