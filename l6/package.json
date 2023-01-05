@@ -1,0 +1,12 @@
+{
+  "name": "l7",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "main": "app.js",
+  "description": ""
+}
