@@ -20,7 +20,7 @@ const vip_ar = [
   },
   {
     name: "Warren Buffett",
-    worth: "$84B",
+
     birth_year: "1931",
     source: "Berkshire Hathaway",
     country: "USA",

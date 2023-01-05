@@ -3,14 +3,15 @@
   {{#each _ar}}
 
     <div class="col-sm-6 card">
-
       <div>
-        <img class="float-left" src="{{image}}" style="margin-right:10px" />
-        <h2>{{name}}</h2>
-        <p>Worth: {{worth}}</p>
-
+        <img class="float-start" src="{{image}}" style="margin-right:10px" />
+        <h2>{{name}} {{@index}}</h2>
+        {{#if worth}}
+          <p>Worth: {{worth}}</p>
+        {{else}}
+          <del>Worth: unknown</del>
+        {{/if}}
       </div>
-      \
     </div>
   {{/each}}
 
